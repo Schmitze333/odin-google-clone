@@ -1,2 +1,4 @@
 # odin-google-clone
-A clone of the google homepage... (The Odin Project)
+This is a Clone of the Google landing page as a project like
+suggested at The Odin Project.
+
