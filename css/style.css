@@ -1,0 +1,136 @@
+/* CSS for Google-Clone */
+
+/* general */
+body {margin: 0;}
+a {text-decoration: none;}
+a:hover {text-decoration: underline;}
+
+.left {float: left;}
+.right {float: right;}
+
+/* Top-Menu */
+.navbar {
+  min-height: 74px;
+  display: block;
+  padding: 0 30px;
+  padding-top: 15px;
+}
+
+.horizontal_list {
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  list-style: none;
+  margin: 0;
+  margin-top: 8px;
+  padding: 0;
+}
+
+
+.horizontal_list li {
+  display: inline;
+  padding-left: 30px;
+}
+
+.horizontal_list li a {color: rgba(0, 0, 0, 0.85);}
+
+.userimg {
+  display: inline;
+  margin-left: 30px;
+}
+
+.userimg img {
+  width: 32px; height: 32px;
+  border-radius: 100%;
+}
+
+.username {
+  color: rgba(0, 0, 0, 0.55);
+}
+
+/* Content-Pane */
+.content {
+  margin: 0 auto;
+  padding-top: 109px;
+}
+
+.logo .image {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo img {
+  width: 272px;
+  height: 92px;
+}
+
+.country {
+  color: #4285f4;
+  font: 16px/16px roboto-regular, arial, sans-serif;
+  left: 717px;
+  max-width: 200px;
+  position: relative;
+  top: -22px;
+  white-space: nowrap;
+}
+
+#searchbar {
+  margin-top: 11px;
+  margin-bottom: 18px;
+  width: 566px;
+  height: 26px;
+  border: 1px solid #d9d9d9;
+  font-family: arial, sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  padding: 5px 9px;
+}
+
+#searchbar:focus, #searchbar:active {
+  border: 1px solid #4d90fe;
+}
+
+.button {
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: rgba(34, 34, 34, 0.54);
+  line-height: 27px;
+  text-align: center;
+  background-color: #f2f2f2;
+  background-image: linear-gradient(50%...8),rgb(241, 241, 241);
+  height: 36px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 1px 0px;
+}
+
+.button:hover {
+  border: 1px solid #c6c6c6;
+  color: #222;
+}
+
+.button:focus {
+  border: 1px solid #4d90fe;
+}
+
+.footer {
+  background-color: #F2F2F2;
+  border-top: 1px solid #E4E4E4;
+  height: 40px;
+  padding: 5px 30px 0 3px;
+  vertical-align: center;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.footer ul li {
+  padding-left: 27px;
+}
+
+.footer .horizontal_list li a {
+  color: #666;
+}
